@@ -1,0 +1,11 @@
+<p>products works!</p>
+
+<div *ngFor="let prodotto of prodotti; let i = index">
+  <h3>prodotto: {{prodotto.nome}}</h3>
+  <p>
+    <button (click)="decrementa(i)">-</button>
+    {{prodotto.quantita}}
+    <button (click)="incrementa(i)">+</button></p>
+    <p>{{ prodotto.nome }} - Prezzo: {{ prodotto.prezzo | currency:'EUR':'symbol':'1.2-2' }}</p>
+    <button (click)="aggiungiAlCarrello(i)">AGGIUNGI AL CARRELLO</button>
+</div>

@@ -1,0 +1,17 @@
+.dx {
+  display: flex;
+  align-items: center;
+}
+
+.cart {
+  width: 5%;
+}
+
+/* Cerca */
+#itemList {
+  display: none; /* Nascondi la lista inizialmente */
+}
+
+#itemList li {
+  list-style-type: none; /* Rimuovi i punti elenco dalla lista */
+}

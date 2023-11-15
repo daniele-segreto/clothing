@@ -1,0 +1,9 @@
+.dx {
+  display: flex;
+  align-items: center;
+}
+
+
+.cart {
+  width: 5%;
+}
