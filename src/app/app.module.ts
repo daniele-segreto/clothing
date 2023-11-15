@@ -9,7 +9,9 @@ import { HomeComponent } from './pages/home/home.component';
 import { ProductsComponent } from './components/products/products.component';
 import { ContattiComponent } from './pages/contatti/contatti.component';
 import { ProdottiService } from './services/prodotti.service';
-
+import { NewsletterComponent } from './components/newsletter/newsletter.component';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,10 +20,13 @@ import { ProdottiService } from './services/prodotti.service';
     HomeComponent,
     ProductsComponent,
     ContattiComponent,
+    NewsletterComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [ProdottiService],
   bootstrap: [AppComponent]
