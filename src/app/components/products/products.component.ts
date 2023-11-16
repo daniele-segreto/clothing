@@ -10,7 +10,7 @@ export class ProductsComponent {
 
   // UOMO
   prodotti_man = [
-    {
+        {
       id: 0,
       nome: 'prodotto 1 U',
       quantita: 0,
@@ -18,14 +18,56 @@ export class ProductsComponent {
       foto: '../../../assets/img/t-shirt.jpg',
     },
     {
-      id: 2,
+      id: 1,
       nome: 'prodotto 2 U',
       quantita: 0,
       prezzo: 20,
       foto: '../../../assets/img/t-shirt.jpg',
     },
     {
+      id: 2,
+      nome: 'prodotto 3 U',
+      quantita: 0,
+      prezzo: 30,
+      foto: '../../../assets/img/t-shirt.jpg',
+    },
+    {
       id: 3,
+      nome: 'prodotto 1 U',
+      quantita: 0,
+      prezzo: 10,
+      foto: '../../../assets/img/t-shirt.jpg',
+    },
+    {
+      id: 4,
+      nome: 'prodotto 2 U',
+      quantita: 0,
+      prezzo: 20,
+      foto: '../../../assets/img/t-shirt.jpg',
+    },
+    {
+      id: 5,
+      nome: 'prodotto 3 U',
+      quantita: 0,
+      prezzo: 30,
+      foto: '../../../assets/img/t-shirt.jpg',
+    },
+    {
+      id: 6,
+      nome: 'prodotto 1 U',
+      quantita: 0,
+      prezzo: 10,
+      foto: '../../../assets/img/t-shirt.jpg',
+    },
+    {
+      id: 7,
+      nome: 'prodotto 2 U',
+      quantita: 0,
+      prezzo: 20,
+      foto: '../../../assets/img/t-shirt.jpg',
+    },
+    {
+      id: 8,
       nome: 'prodotto 3 U',
       quantita: 0,
       prezzo: 30,
@@ -57,7 +99,7 @@ export class ProductsComponent {
 
   // DONNA
   prodotti_woman = [
-    {
+        {
       id: 0,
       nome: 'prodotto 1 D',
       quantita: 0,
@@ -65,14 +107,56 @@ export class ProductsComponent {
       foto: '../../../assets/img/t-shirt.jpg',
     },
     {
-      id: 2,
+      id: 1,
       nome: 'prodotto 2 D',
       quantita: 0,
       prezzo: 20,
       foto: '../../../assets/img/t-shirt.jpg',
     },
     {
+      id: 2,
+      nome: 'prodotto 3 D',
+      quantita: 0,
+      prezzo: 30,
+      foto: '../../../assets/img/t-shirt.jpg',
+    },
+    {
       id: 3,
+      nome: 'prodotto 1 D',
+      quantita: 0,
+      prezzo: 10,
+      foto: '../../../assets/img/t-shirt.jpg',
+    },
+    {
+      id: 4,
+      nome: 'prodotto 2 D',
+      quantita: 0,
+      prezzo: 20,
+      foto: '../../../assets/img/t-shirt.jpg',
+    },
+    {
+      id: 5,
+      nome: 'prodotto 3 D',
+      quantita: 0,
+      prezzo: 30,
+      foto: '../../../assets/img/t-shirt.jpg',
+    },
+    {
+      id: 6,
+      nome: 'prodotto 1 D',
+      quantita: 0,
+      prezzo: 10,
+      foto: '../../../assets/img/t-shirt.jpg',
+    },
+    {
+      id: 7,
+      nome: 'prodotto 2 D',
+      quantita: 0,
+      prezzo: 20,
+      foto: '../../../assets/img/t-shirt.jpg',
+    },
+    {
+      id: 8,
       nome: 'prodotto 3 D',
       quantita: 0,
       prezzo: 30,
@@ -110,14 +194,56 @@ export class ProductsComponent {
       foto: '../../../assets/img/t-shirt.jpg',
     },
     {
-      id: 2,
+      id: 1,
       nome: 'prodotto 2 B',
       quantita: 0,
       prezzo: 20,
       foto: '../../../assets/img/t-shirt.jpg',
     },
     {
+      id: 2,
+      nome: 'prodotto 3 B',
+      quantita: 0,
+      prezzo: 30,
+      foto: '../../../assets/img/t-shirt.jpg',
+    },
+    {
       id: 3,
+      nome: 'prodotto 1 B',
+      quantita: 0,
+      prezzo: 10,
+      foto: '../../../assets/img/t-shirt.jpg',
+    },
+    {
+      id: 4,
+      nome: 'prodotto 2 B',
+      quantita: 0,
+      prezzo: 20,
+      foto: '../../../assets/img/t-shirt.jpg',
+    },
+    {
+      id: 5,
+      nome: 'prodotto 3 B',
+      quantita: 0,
+      prezzo: 30,
+      foto: '../../../assets/img/t-shirt.jpg',
+    },
+    {
+      id: 6,
+      nome: 'prodotto 1 B',
+      quantita: 0,
+      prezzo: 10,
+      foto: '../../../assets/img/t-shirt.jpg',
+    },
+    {
+      id: 7,
+      nome: 'prodotto 2 B',
+      quantita: 0,
+      prezzo: 20,
+      foto: '../../../assets/img/t-shirt.jpg',
+    },
+    {
+      id: 8,
       nome: 'prodotto 3 B',
       quantita: 0,
       prezzo: 30,

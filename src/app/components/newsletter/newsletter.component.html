@@ -1,12 +1,10 @@
 <form [formGroup]="form" (ngSubmit)="submitForm()">
-
   <div>
-    <!-- <label for="email">Email:</label> -->
-    <input type="email" id="email" formControlName="email" required> <button class="btn-success" type="submit" [disabled]="form.invalid">Invia</button>
-    <!-- Utilizza *ngIf con il metodo get del controllo per gestire gli errori -->
+    <input type="email" id="email" placeholder="email" formControlName="email" required>
+    <button class="btn-success" style="margin-left: 1%; border-radius: 5%; font-size: large;" type="submit"
+    [disabled]="form.invalid">Invia</button>
     <div *ngIf="form.get('email') && !form.get('email')">
       Inserisci un indirizzo email valido.
     </div>
   </div>
-
 </form>

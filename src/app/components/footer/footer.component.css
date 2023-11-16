@@ -1,4 +1,4 @@
-footer{
+/* footer{
     background-color: #101010;
     color: white;
     padding-top: 80px;
@@ -20,10 +20,44 @@ ul {
 
 ul li a {
   text-decoration: none;
-  color: inherit; /* per mantenere il colore originale dei link */
+  color: inherit;
 }
 
 .hr-foot {
   margin-top: 40px;
+  margin-bottom: 60px;
+} */
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+footer{
+    background-color: #101010;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    bottom: 0;
+}
+h5,p{
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+li{
+  padding: 1%;
+}
+
+ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hr-foot {
+  margin-top: 50px;
   margin-bottom: 60px;
 }
