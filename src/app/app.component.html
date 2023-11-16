@@ -1,20 +1,20 @@
 <!-- Header -->
-<header>
+<!-- <header> -->
   <!-- <app-navbar></app-navbar> -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid"> -->
 
       <!-- SX -->
       <!-- Logo -->
-      <a class="navbar-brand" href="#">Logo</a>
+      <!-- <a class="navbar-brand" href="#">Logo</a> -->
       <!-- Toggler -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+      </button> -->
       <!-- SX -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
         <!-- Pagine -->
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" routerLink="/">Home</a>
           </li>
@@ -24,33 +24,33 @@
           <li class="nav-item">
             <a class="nav-link" routerLink="/contatti">Contatti</a>
           </li>
-        </ul>
+        </ul> -->
 
         <!-- DX -->
-        <div class="dx">
+        <!-- <div class="dx"> -->
           <!-- Ricerca -->
-          <form class="d-flex">
+          <!-- <form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+          </form> -->
 
           <!-- Carrello -->
-          <a class="nav-link ml-2" href="#" data-bs-toggle="modal" data-bs-target="#Modal">
+          <!-- <a class="nav-link ml-2" href="#" data-bs-toggle="modal" data-bs-target="#Modal">
             <img src="assets/assets/img/shopping-cart.png" alt="Carrello" class="cart">
             <span class='ms-2'>{{count}}</span>
-          </a>
+          </a> -->
 
           <!-- Modal -->
-          <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+          <!-- <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
                   <h1 class="modal-title fs-5" id="ModalLabel">Carrello</h1>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
+                </div> -->
 
                 <!-- Aggiorna la modale nella navbar -->
-                <div class="modal-body">
+                <!-- <div class="modal-body">
                   <ul>
                     <li *ngFor="let item of carrello; let i = index">
                       {{ item.nome }} - Quantità: {{ item.quantita }} - Prezzo: {{ item.prezzo * item.quantita | currency:'EUR':'symbol':'1.2-2' }}
@@ -68,79 +68,118 @@
 
               </div>
             </div>
-          </div>
+          </div> -->
 
           <!-- <span class='ms-2'>{{count}}</span> -->
 
-        </div>
-      </div>
-    </div>
-  </nav>
-
-</header>
-
-<header>
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbarBackground">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="assets/img/Logo 4.png" alt="" width="80">
-              </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item ">
-                <a class="nav-link active marginLink" aria-current="page" href="#" >Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link marginLink" href="#">Prodotti</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link marginLink" href="#">Contatti</a>
-              </li>
-            </ul>
-
-
-            <!-- PER CENTRARE SEARCH -->
-
-            <div class="collapse navbar-collapse alignSearch searchmain" style="width: 100%;" id="navbarSupportedContent">
-
-                <form class="d-flex" style="width:120%;">
-                    <input class="form-control me-2 shadowSearch" type="search" placeholder="Search" aria-label="Search">
-
-                  </form>
-                  <div class="alignCarr" style="width: 20%;">
-                    <img src="assets/img/carrello.jfif" width="40px">
-                  </div>
-
-
-            </div>
-
-            <!-- FINE PER CENTRARE SEARCH -->
-
+          <!-- </div>
           </div>
         </div>
       </nav>
-</div>
 
-<!--FINE NAVBAR-->
-</header>
+    </header> -->
 
-<main class="container-fluid">
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbarBackground">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="assets/img/Logo 4.png" alt="" width="80">
+            </a>
 
-  <ng-container *ngIf="!isRouteWithProducts; else productsOutlet">
-    <router-outlet></router-outlet>
-  </ng-container>
-  <ng-template #productsOutlet>
-    <app-products (aggiungiCarrello)="aggiungiAlCarrello($event)"></app-products>
-  </ng-template>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item ">
+                  <a class="nav-link active marginLink" aria-current="page" routerLink="/" >Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link marginLink" routerLink="/prodotti">Prodotti</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link marginLink" routerLink="/contatti">Contatti</a>
+                </li>
+              </ul>
 
 
-</main>
+              <!-- PER CENTRARE SEARCH -->
 
-<!-- Footer -->
-<footer class="bg-dark text-light">
-  <app-footer></app-footer>
-</footer>
+              <!-- <div class="collapse navbar-collapse alignSearch searchmain d-flex flex-row" style="width: 50%;" id="navbarSupportedContent"> -->
+
+                <!-- <form class="d-flex" style="width:80%;">
+                  <input class="form-control me-2 shadowSearch" type="search" placeholder="Search" aria-label="Search">
+                </form> -->
+
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                  <app-searchbar style="width: 200%;"></app-searchbar>
+
+                  <div class="alignCarr" style="width: 20%;" data-bs-toggle="modal" data-bs-target="#Modal">
+                    <img src="assets/img/carrello.jfif" width="40px">
+                    <span class='ms-2'>{{count}}</span>
+                  </div>
+                </div>
+
+
+                <!-- </div> -->
+
+                <!-- FINE PER CENTRARE SEARCH -->
+
+                <!-- Modal -->
+                <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="ModalLabel">Carrello</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+
+                      <!-- Aggiorna la modale nella navbar -->
+                      <div class="modal-body">
+                        <ul>
+                          <li *ngFor="let item of carrello; let i = index">
+                            <p>
+                              {{ item.nome }} - Quantità: {{ item.quantita }} - Prezzo: {{ item.prezzo * item.quantita | currency:'EUR':'symbol':'1.2-2' }}
+                              <button type="button" class="btn btn-success btn-sm ms-2" (click)="rimuoviDalCarrello(i)">Rimuovi</button>
+                            </p>
+                          </li>
+                        </ul>
+                        <p>Totale prodotti nel carrello: {{ count }}</p>
+                        <p>Somma dei prezzi: {{ calcolaSommaPrezzi() | currency:'EUR':'symbol':'1.2-2' }}</p>
+                      </div>
+
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+                        <button type="button" class="btn btn-primary" (click)="confermaAcquisto()">Procedi all'acquisto</button>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <!--FINE NAVBAR-->
+      </header>
+
+      <main class="container-fluid">
+
+        <ng-container *ngIf="!isRouteWithProducts; else productsOutlet">
+          <router-outlet></router-outlet>
+        </ng-container>
+        <ng-template #productsOutlet>
+          <app-products (aggiungiCarrello)="aggiungiAlCarrello($event)"></app-products>
+        </ng-template>
+
+
+      </main>
+
+      <!-- Footer -->
+      <footer class="bg-dark text-light">
+        <app-footer></app-footer>
+      </footer>

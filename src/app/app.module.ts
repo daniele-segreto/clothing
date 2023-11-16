@@ -12,6 +12,7 @@ import { ProdottiService } from './services/prodotti.service';
 import { NewsletterComponent } from './components/newsletter/newsletter.component';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
+import { SearchbarComponent } from './components/searchbar/searchbar.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,6 +22,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     ProductsComponent,
     ContattiComponent,
     NewsletterComponent,
+    SearchbarComponent,
   ],
   imports: [
     BrowserModule,
