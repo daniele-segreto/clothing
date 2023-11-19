@@ -8,70 +8,70 @@ import { Component, EventEmitter, Output } from '@angular/core';
 export class ProductsComponent {
   @Output() aggiungiCarrello: EventEmitter<any> = new EventEmitter();
 
-  // UOMO
+// UOMO
   prodotti_man = [
-        {
+    {
       id: 0,
-      nome: 'prodotto 1 U',
+      nome: 'Camicia a Fiori',
       quantita: 0,
-      prezzo: 10,
-      foto: '../../../assets/img/t-shirt.jpg',
+      prezzo: 7,
+      foto: '../../../assets/img/Immagini Uomo/Superiori_U/Camicia_Fiori.png',
     },
     {
       id: 1,
-      nome: 'prodotto 2 U',
+      nome: 'Felpa Blu',
       quantita: 0,
-      prezzo: 20,
-      foto: '../../../assets/img/t-shirt.jpg',
+      prezzo: 11,
+      foto: '../../../assets/img/Immagini Uomo/Superiori_U/Felpa_blu.png',
     },
     {
       id: 2,
-      nome: 'prodotto 3 U',
+      nome: 'Felpa Nera',
       quantita: 0,
-      prezzo: 30,
-      foto: '../../../assets/img/t-shirt.jpg',
+      prezzo: 10,
+      foto: '../../../assets/img/Immagini Uomo/Superiori_U/Felpa_Nera.png',
     },
     {
       id: 3,
-      nome: 'prodotto 1 U',
+      nome: 'Tuta Chiara',
       quantita: 0,
-      prezzo: 10,
-      foto: '../../../assets/img/t-shirt.jpg',
+      prezzo: 9,
+      foto: '../../../assets/img/Immagini Uomo/Inferiori_U/Tuta_chiara.png',
     },
     {
       id: 4,
-      nome: 'prodotto 2 U',
+      nome: 'Tuta Scura ',
       quantita: 0,
-      prezzo: 20,
-      foto: '../../../assets/img/t-shirt.jpg',
+      prezzo: 9,
+      foto: '../../../assets/img/Immagini Uomo/Inferiori_U/Tuta_Scura.png',
     },
     {
       id: 5,
-      nome: 'prodotto 3 U',
+      nome: 'Tuta Invernale',
       quantita: 0,
-      prezzo: 30,
-      foto: '../../../assets/img/t-shirt.jpg',
+      prezzo: 9,
+      foto: '../../../assets/img/Immagini Uomo/Inferiori_U/Tuta_uomo.png',
     },
     {
       id: 6,
-      nome: 'prodotto 1 U',
+      nome: 'Scarpe Leggere',
       quantita: 0,
-      prezzo: 10,
-      foto: '../../../assets/img/t-shirt.jpg',
+      prezzo: 30,
+      foto: '../../../assets/img/Immagini Uomo/Accessori_U/Scarpe_trekking_1.png',
     },
     {
       id: 7,
-      nome: 'prodotto 2 U',
+      nome: 'Scarpe Medie',
       quantita: 0,
-      prezzo: 20,
-      foto: '../../../assets/img/t-shirt.jpg',
+      prezzo: 35,
+      foto: '../../../assets/img/Immagini Uomo/Accessori_U/Scarpe_trekking_2.png',
     },
     {
       id: 8,
-      nome: 'prodotto 3 U',
+      nome: 'Scarpe Pesanti',
       quantita: 0,
-      prezzo: 30,
-      foto: '../../../assets/img/t-shirt.jpg',
+      prezzo: 40,
+      foto: '../../../assets/img/Immagini Uomo/Accessori_U/Scarpe_trekking_3.png',
     },
   ];
 
@@ -97,72 +97,72 @@ export class ProductsComponent {
     }
   }
 
-  // DONNA
-  prodotti_woman = [
-        {
+// DONNA
+prodotti_woman = [
+    {
       id: 0,
-      nome: 'prodotto 1 D',
+      nome: 'Felpa Chiara',
       quantita: 0,
       prezzo: 10,
-      foto: '../../../assets/img/t-shirt.jpg',
+      foto: '../../../assets/img/Immagini Donna/Superiore_D/Felpa_chiara.png',
     },
     {
       id: 1,
-      nome: 'prodotto 2 D',
+      nome: 'Felpa Viola',
       quantita: 0,
       prezzo: 20,
-      foto: '../../../assets/img/t-shirt.jpg',
+      foto: '../../../assets/img/Immagini Donna/Superiore_D/Felpa_viola.png',
     },
     {
       id: 2,
-      nome: 'prodotto 3 D',
+      nome: 'Pantaloni chiari',
       quantita: 0,
       prezzo: 30,
-      foto: '../../../assets/img/t-shirt.jpg',
+      foto: '../../../assets/img/Immagini Donna/Superiore_D/Pantaloni_chiari.png',
     },
     {
       id: 3,
-      nome: 'prodotto 1 D',
+      nome: 'Canottiera scura',
       quantita: 0,
       prezzo: 10,
-      foto: '../../../assets/img/t-shirt.jpg',
+      foto: '../../../assets/img/Immagini Donna/Inferiore_D/Canottiera_scura.png',
     },
     {
       id: 4,
-      nome: 'prodotto 2 D',
+      nome: 'Pantaloni caviglia',
       quantita: 0,
       prezzo: 20,
-      foto: '../../../assets/img/t-shirt.jpg',
+      foto: '../../../assets/img/Immagini Donna/Inferiore_D/Pantaloni _caviglia.png',
     },
     {
       id: 5,
-      nome: 'prodotto 3 D',
+      nome: 'Pantaloni Zampa',
       quantita: 0,
       prezzo: 30,
-      foto: '../../../assets/img/t-shirt.jpg',
+      foto: '../../../assets/img/Immagini Donna/Inferiore_D/Pantaloni_Zampa.png',
     },
     {
       id: 6,
-      nome: 'prodotto 1 D',
+      nome: 'Scarpe colore chiaro',
       quantita: 0,
       prezzo: 10,
-      foto: '../../../assets/img/t-shirt.jpg',
+      foto: '../../../assets/img/Immagini Donna/Accessori_D/Scarpe_colore_chiaro.png',
     },
     {
       id: 7,
-      nome: 'prodotto 2 D',
+      nome: 'Scarpe nere',
       quantita: 0,
       prezzo: 20,
-      foto: '../../../assets/img/t-shirt.jpg',
+      foto: '../../../assets/img/Immagini Donna/Accessori_D/Scarpe_nere.png',
     },
     {
       id: 8,
-      nome: 'prodotto 3 D',
+      nome: 'Scarpe verde acqua',
       quantita: 0,
       prezzo: 30,
-      foto: '../../../assets/img/t-shirt.jpg',
-    },
-  ];
+      foto: '../../../assets/img/Immagini Donna/Accessori_D/Scarpe_verde_acqua.png',
+    },
+  ];
 
   incrementa_woman(index: number) {
     if (index >= 0 && index < this.prodotti_woman.length) {
@@ -184,72 +184,72 @@ export class ProductsComponent {
     }
   }
 
-  // BAMBINO
-  prodotti_children = [
+// BAMBINO
+prodotti_children = [
     {
       id: 0,
-      nome: 'prodotto 1 B',
+      nome: 'Felpa  Diesel blu',
       quantita: 0,
       prezzo: 10,
-      foto: '../../../assets/img/t-shirt.jpg',
+      foto: '../../../assets/img/Immagini bimbo/Superiore_B/Felpa_Blu_Diesel.png',
     },
     {
       id: 1,
-      nome: 'prodotto 2 B',
+      nome: 'Felpa blu scura',
       quantita: 0,
       prezzo: 20,
-      foto: '../../../assets/img/t-shirt.jpg',
+      foto: '../../../assets/img/Immagini bimbo/Superiore_B/Felpa_blu_Scura.png',
     },
     {
       id: 2,
-      nome: 'prodotto 3 B',
+      nome: 'Felpa  Diesel grigia',
       quantita: 0,
       prezzo: 30,
-      foto: '../../../assets/img/t-shirt.jpg',
+      foto: '../../../assets/img/Immagini bimbo/Superiore_B/Felpa_grigia_diesel.png',
     },
     {
       id: 3,
-      nome: 'prodotto 1 B',
+      nome: 'Maglietta Diesel scura',
       quantita: 0,
       prezzo: 10,
-      foto: '../../../assets/img/t-shirt.jpg',
+      foto: '../../../assets/img/Immagini bimbo/Inferiore_B/Maglietta_diesel_sscura.png',
     },
     {
       id: 4,
-      nome: 'prodotto 2 B',
+      nome: 'Maglietta Diesel chiara',
       quantita: 0,
       prezzo: 20,
-      foto: '../../../assets/img/t-shirt.jpg',
+      foto: '../../../assets/img/Immagini bimbo/Inferiore_B/Maglietta_diesel_chiara.png',
     },
     {
       id: 5,
-      nome: 'prodotto 3 B',
+      nome: 'Maglietta Diesel scura',
       quantita: 0,
       prezzo: 30,
-      foto: '../../../assets/img/t-shirt.jpg',
+      foto: '../../../assets/img/Immagini bimbo/Inferiore_B/Maglietta_diesel_sscura.png',
     },
     {
       id: 6,
-      nome: 'prodotto 1 B',
+      nome: 'Cappellino chiaro',
       quantita: 0,
       prezzo: 10,
-      foto: '../../../assets/img/t-shirt.jpg',
+      foto: '../../../assets/img/Immagini bimbo/Accessori_B/Cappellino_Chiaro.png',
     },
     {
       id: 7,
-      nome: 'prodotto 2 B',
+      nome: 'Cappellino scuro',
       quantita: 0,
       prezzo: 20,
-      foto: '../../../assets/img/t-shirt.jpg',
+      foto: '../../../assets/img/Immagini bimbo/Accessori_B/Cappellino_scuro.png',
     },
     {
       id: 8,
-      nome: 'prodotto 3 B',
+      nome: 'Cappellino',
       quantita: 0,
       prezzo: 30,
-      foto: '../../../assets/img/t-shirt.jpg',
-    },
-  ];
+      foto: '../../../assets/img/Immagini bimbo/Accessori_B/Cappellino.png',
+    },
+  ];
 
   incrementa_children(index: number) {
     if (index >= 0 && index < this.prodotti_children.length) {

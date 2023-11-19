@@ -36,6 +36,7 @@
           "iframe[loading]"
         ]
       }
-    ]
+    ],
+    "disown-opener": "off"
   }
 }
